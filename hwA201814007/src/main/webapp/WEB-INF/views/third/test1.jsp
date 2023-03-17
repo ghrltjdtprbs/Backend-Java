@@ -5,11 +5,14 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>
-    <h1> id : ${ student.id }</h1>
-    <h1> studentNumber : ${ student.studentNumber }</h1>
-    <h1> studentName : ${ student.studentName }</h1>
-    <h1> email : ${ student.email  }</h1>
-   
+<table border="1">
+<tr>
+    <td>${ student.id }</td></tr>
+    <tr><td>${ student.studentNumber }</td></tr>
+    <tr><td>${ student.studentName }</td></tr>
+    <tr><td>${ student.email }</td></tr>
+ 
+  </table>
+    
 </body>
 </html>
- 
